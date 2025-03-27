@@ -16,7 +16,7 @@ int size = sizeof array / sizeof array[0];
     array[i] =  array[size-i-1];
     array[size-i-1] = temp; 
     
- } 
+ }  
  for(int i=0;i<size;i++){
     printf("%d ",array[i]); 
  } 

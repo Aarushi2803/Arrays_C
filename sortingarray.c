@@ -8,7 +8,7 @@ int size = sizeof array / sizeof array[0];
   for(int i=0 ; i<size ; i++){
     scanf("%d",&array[i]);
   }
-for(int i=0;i<size;i++){
+for(int i=0;i<size;i++){ 
     int flag = 1;
     for(int j=0;j<size-i-1;j++){
         if(array[j] > array[j+1]){

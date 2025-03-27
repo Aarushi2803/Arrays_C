@@ -3,11 +3,13 @@ int main(){
     
     int a;
     scanf("%d",&a);
+
 int array[a];
 int size = sizeof array / sizeof array[0];
   for(int i=0 ; i<size ; i++){
     scanf("%d",&array[i]);
   }
+
 int isAscending = 1;
 int isDecending = 1;
  int i;
@@ -30,3 +32,4 @@ else{
 }
   return 0;
 }
+

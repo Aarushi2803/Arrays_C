@@ -14,7 +14,7 @@ int size = sizeof array / sizeof array[0];
  for( i=0;i<size;i++){
     if(array[i] == key){
         index = i; 
-     break;
+     break; 
     } 
  }
  if(i==size) printf("not found");
